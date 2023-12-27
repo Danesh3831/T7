@@ -9,15 +9,15 @@ int main(){
 	cin>>key;
 	switch(key){
 		case 'I' :
-		case 'i' : cout<<"insert" ;
+		case 'i' : cout<<"insert" ; break ;
 		case 'D' :
-		case 'd' : cout<<"delete" ;
+		case 'd' : cout<<"delete" ; break ;
 		case 'U' :
-		case 'u' : cout<<"update" ;
+		case 'u' : cout<<"update" ; break ;
 		case 'L' :
-		case 'l' : cout<<"list" ;
+		case 'l' : cout<<"list" ; break ;
 		case 'R' :
-		case 'r' : cout<<"report" ;
+		case 'r' : cout<<"report" ; break ;
 		default : cout<<"no key"<<endl;
 	}
 
